@@ -20,13 +20,13 @@ body {
 }
 
 .left {
-    margin-left: 250px;
+    margin-left: 200px;
     justify-content: flex-end;
     gap: 8px;
 }
 
 .right {
-    margin-right: 250px;
+    margin-right: 200px;
     gap: 50px;
     align-items: flex-end;
     justify-content: flex-end;
@@ -63,8 +63,14 @@ header {
     justify-content: space-between;
 }
 
-img {
+#dog-image {
     width: 200px;
+    height: auto;
+}
+
+#dog-image img {
+    display: block;
+    width: 100%;
     height: auto;
 }
 
@@ -81,13 +87,42 @@ h2 {
     margin-bottom: auto;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+
+#h3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a, p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+.cow-container img {
+    width: 175px;
+    height: 175px;
+    border-radius: 12px;
+    border-width: 0;
+}
+
+.cow-container p {
+    width: 175px;
+    text-align:center;
+    color: #1F2937;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
