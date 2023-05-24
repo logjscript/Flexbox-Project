@@ -184,4 +184,10 @@ a, p {
     width: 100px;
 }
 
-
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
