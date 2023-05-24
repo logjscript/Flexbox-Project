@@ -62,6 +62,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
+    padding: 0;
 }
 
 header {
@@ -87,7 +88,7 @@ h1 {
     margin: 0;
 }
 
-h2 {
+h2, h4 {
     font-size: 24px;
     color: #F9FAF8;
     margin-bottom: auto;
@@ -159,3 +160,28 @@ a, p {
     font-weight: bolder;
     margin-right: 50px;
 }
+
+#four-left p {
+    font-size: 18px;
+}
+
+.four {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 750px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-self: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+#four-right button {
+    border: #E5E7EB solid 2px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
